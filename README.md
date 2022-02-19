@@ -19,7 +19,7 @@ Godot is already used in the industry for use in Robot for exactly that, but tut
 ## Existing Software
 - [**Godot-Sim**](https://github.com/plaans/gobot-sim) - a simple 2D robot simulator for Godot, also implementing jobshop for planning
 - [**ROS Websocket interface for godot**](https://github.com/rudyvic/ROS-Websocket) - an interface to use the ROS WebSuite
-- [**Godot ROS pcviz](https://github.com/ymd-stella/godot_ros_pcviz) loads and visualize recorded bag-files
+- [**Godot ROS pcviz**](https://github.com/ymd-stella/godot_ros_pcviz) loads and visualize recorded bag-files
 - [**Godot ROS**](https://github.com/flynneva/godot_ros) rclcpp (ROS2) example implementation to connect to a ROS2-node from within Godot using C++
 
 ## What's missing?
