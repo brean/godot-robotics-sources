@@ -6,7 +6,7 @@ Sources, Links and Information on using the Godot Game Engine in Robotics.
 There is already some very advanced and open source Robotics simulation systems out there, for example [Gazebo](http://gazebosim.org/) or [MARS](https://github.com/rock-simulation/mars), but its always good to have alternatives.
 
 ### Create User interfaces for Web and other devices
-Godot is already used in the industry for use in Robot for exactly that, but tutorials for exactly that use case is missing.
+Godot is already used in the industry for exactly that, but documented use-cases and tutorials for beginners are missing.
 
 ## Benefits from using Godot in Robotics
 - Fast and Realistic 3D Graphics including lighting (especially with Godot 4 - important for Robot Perception/Computer Vision training)
