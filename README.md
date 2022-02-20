@@ -1,5 +1,5 @@
 # Godot Robotics
-Ideas, Sources, Links and Information on using the Godot Game Engine in Robotics.
+Ideas, Sources, Links and Information on using the [Godot Game Engine](https://godotengine.org/) in Robotics.
 
 ## Use cases
 ### Simulation
