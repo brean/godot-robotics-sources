@@ -1,5 +1,5 @@
 # Godot Robotics
-Sources, Links and Information on using the Godot Game Engine in Robotics.
+Ideas, Sources, Links and Information on using the Godot Game Engine in Robotics.
 
 ## Use cases
 ### Simulation
@@ -13,7 +13,7 @@ Godot is already used in the industry for exactly that, but documented use-cases
 - Interfaces for different physics engines, an own physics engine as another alternative for bullet/ODE in MARS/Gazebo/pybullet.
 - HTML5-export to create robot control user interfaces on modern mobile devices
 - A scripting language to easily interface with the enviroment that is also very good documented (GDScript / C#), existing programming documentation
-  - allows the implementation of complex behavior without the need of additional dependencies (non-robotic actors, think of for example workers in a production scenario). The [actor-plugin](http://gazebosim.org/tutorials?tut=actor&cat=build_robot) for Gazebo could be used to realize something like that, but its not as integrated as the scripting tools provided by Godot.
+  - allows the implementation of complex behavior without the need of additional dependencies (non-robotic actors, think of for example workers in a production scenario). The [actor-plugin](http://gazebosim.org/tutorials?tut=actor&cat=build_robot) for Gazebo could be used to realize something like that, but its not as integrated as the scripting tools provided by Godot, a simulated actor in Godot could have an internal state-machine and switch between different animations easily, this does not exist in Gazebo (yet?).
 - Multiple importers for 3D-Models and animations with an existing store, so its easy to let an entity in the simulation be controlled by a human (for example use the [Open 3D Mannequin](https://github.com/GDquest/godot-3d-mannequin))
 - VR/AR integration
 
