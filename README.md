@@ -27,6 +27,8 @@ Godot is already used in the industry for exactly that, but documented use-cases
 - an importer for URDF and SDF for Gazebo models (https://app.ignitionrobotics.org/fuel/models) and .world files
   - you can import models into Blender using [Phobos](https://github.com/dfki-ric/phobos) and then export to OBJ or FBX and import in Gazebo but a direct import would be nice
   - see also: [Loading model files at runtime](https://github.com/godotengine/godot/issues/24768)
+- an importer for MARS
+  - a mars .scene-file ist just some XML representation of some nodes inside an .scn-file which is just a complressed list of 3D Meshes (obj-files) - should be easy for Godot to parse and load.
 - an interface similar to Gazebo
   - the default Node-based Gazebo-interface is already close
 - ROS-Godot interface that allows to create ros-nodes from GDScript (ideally from both, the web suite and ROS directly so we can run a heavy simulation locally but also a user interface form a web browser where both have a similar API and both run in Godot?)
