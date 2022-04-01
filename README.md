@@ -22,7 +22,7 @@ Godot is already used in the industry for exactly that, but documented use-cases
 - [**ROS Websocket interface for godot**](https://github.com/rudyvic/ROS-Websocket) - an interface to use the ROS WebSuite
 - [**Godot ROS pcviz**](https://github.com/ymd-stella/godot_ros_pcviz) loads and visualize recorded bag-files
 - [**Godot ROS**](https://github.com/flynneva/godot_ros) rclcpp (ROS2) example implementation to connect to a ROS2-node from within Godot using C++
-- [**URoboSim**](https://github.com/urobosim/URoboSim): Unreal-Plugin für ROS
+- [**URoboSim**](https://github.com/urobosim/URoboSim): ROS-Plugin for Unreal (as inspiration?)
 
 ## What's missing?
 - an importer for URDF and SDF for Gazebo models (https://app.ignitionrobotics.org/fuel/models) and .world files
