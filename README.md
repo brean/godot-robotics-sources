@@ -24,6 +24,9 @@ Godot is already used in the industry for exactly that, but documented use-cases
 - [**Godot ROS**](https://github.com/flynneva/godot_ros) rclcpp (ROS2) example implementation to connect to a ROS2-node from within Godot using C++
 - [**URoboSim**](https://github.com/urobosim/URoboSim): ROS-Plugin for Unreal (as inspiration?)
 
+## Physics simulation
+Godot 3 uses Bullet, Godot 4 uses bullet and an owen Physics engine. It might be a good idea to combine [MuJoCo](https://mujoco.org/) with Godot, like [URoboViz](https://github.com/HoangGiang93/URoboViz).
+
 ## What's missing?
 - an importer for URDF and SDF for Gazebo models (https://app.ignitionrobotics.org/fuel/models) and .world files
   - you can import models into Blender using [Phobos](https://github.com/dfki-ric/phobos) and then export to OBJ or FBX and import in Gazebo but a direct import would be nice
