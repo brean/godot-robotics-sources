@@ -23,6 +23,7 @@ Godot is already used in the industry for exactly that, but documented use-cases
 - [**Godot ROS pcviz**](https://github.com/ymd-stella/godot_ros_pcviz) loads and visualize recorded bag-files
 - [**Godot ROS**](https://github.com/flynneva/godot_ros) rclcpp (ROS2) example implementation to connect to a ROS2-node from within Godot using C++
 - [**URoboSim**](https://github.com/urobosim/URoboSim): ROS-Plugin for Unreal (as inspiration?)
+- [**GodotAIGym**](https://github.com/lupoglaz/GodotAIGym/): GodotAIGym for an OpenAI Gym integration.
 
 ## Physics simulation
 Godot 3 uses Bullet, Godot 4 uses bullet and an owen Physics engine. It might be a good idea to combine [MuJoCo](https://mujoco.org/) with Godot, like [URoboViz](https://github.com/HoangGiang93/URoboViz).
