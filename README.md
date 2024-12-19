@@ -26,7 +26,7 @@ Godot is already used in the industry for exactly that, but documented use-cases
 - [**GodotAIGym**](https://github.com/lupoglaz/GodotAIGym/): GodotAIGym for an OpenAI Gym integration.
 
 ## Physics simulation
-Godot 3 uses Bullet, Godot 4 uses bullet and an owen Physics engine. It might be a good idea to combine [MuJoCo](https://mujoco.org/) with Godot, like [URoboViz](https://github.com/HoangGiang93/URoboViz).
+~~Godot 3 uses Bullet, Godot 4 uses bullet and an owen Physics engine~~ Starting with Godot 4.4 the [Jolt Physics](https://github.com/jrouwe/JoltPhysics) engine is fully integrated in Godot which is already quite versatile. It might be a good idea to combine [MuJoCo](https://mujoco.org/) with Godot, like [URoboViz](https://github.com/HoangGiang93/URoboViz).
 
 ## What's missing?
 - an importer for URDF and SDF for Gazebo models (https://app.ignitionrobotics.org/fuel/models) and .world files
