@@ -9,7 +9,7 @@ There is already some very advanced and open source Robotics simulation systems 
 Godot is already used in the industry for exactly that, but documented use-cases and tutorials for beginners are missing.
 
 ## Benefits from using Godot in Robotics
-- Fast and realistic \[[1](https://www.youtube.com/watch?v=0bgw7crtOcQ)\]\[[2](https://www.youtube.com/watch?v=4Q2SQvfKAiY)\] 3D Graphics including lighting (especially with Godot 4 - important for Robot Perception/Computer Vision training) using SDFGI and HDDAGI.
+- Fast and realistic \[[1](https://www.youtube.com/watch?v=0bgw7crtOcQ)\]\[[2](https://www.youtube.com/watch?v=4Q2SQvfKAiY)\]\[[3](https://www.youtube.com/watch?v=d_BJ9RN6PLE)\]\[[4](https://www.youtube.com/watch?v=8kAK1vRjlyI)\] 3D Graphics including lighting (especially with Godot 4 - important for Robot Perception/Computer Vision training) using SDFGI and HDDAGI.
 - Interfaces for different physics engines, an own physics engine as another alternative for bullet/ODE in MARS/Gazebo/pybullet.
 - HTML5-export to create robot control user interfaces on modern mobile devices
 - A scripting language to easily interface with the enviroment that is also very good documented (GDScript / C#), existing programming documentation
