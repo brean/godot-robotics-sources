@@ -21,22 +21,24 @@ Godot is already used in the industry for exactly that, but documented use-cases
 - [**Godot-Sim**](https://github.com/plaans/gobot-sim) - a simple 2D robot simulator for Godot, also implementing jobshop for planning
 - [**ROS Websocket interface for godot**](https://github.com/rudyvic/ROS-Websocket) - an interface to use the ROS WebSuite
 - [**Godot ROS pcviz**](https://github.com/ymd-stella/godot_ros_pcviz) loads and visualize recorded bag-files
-- [**Godot ROS**](https://github.com/flynneva/godot_ros) rclcpp (ROS2) example implementation to connect to a ROS2-node from within Godot using C++
+- [**Godot ROS**](https://github.com/flynneva/godot_ros) rclcpp (ROS2) example implementation to connect to a ROS2-node from within Godot using C++ (streams images from godot to ros)
 - [**URoboSim**](https://github.com/urobosim/URoboSim): ROS-Plugin for Unreal (as inspiration?)
 - [**GodotAIGym**](https://github.com/lupoglaz/GodotAIGym/): GodotAIGym for an OpenAI Gym integration.
+- [**Godot URDF**](https://github.com/askarkg12/godot_urdf/) URDF importer, missing collisions and nicer way to import external meshes but nice start.
 
 ## Physics simulation
 ~~Godot 3 uses Bullet, Godot 4 uses bullet and an owen Physics engine~~ Starting with Godot 4.4 the [Jolt Physics](https://github.com/jrouwe/JoltPhysics) engine is fully integrated in Godot which is already quite versatile. It might be a good idea to combine [MuJoCo](https://mujoco.org/) with Godot, like [URoboViz](https://github.com/HoangGiang93/URoboViz).
 
 ## What's missing?
-- an importer for URDF and SDF for Gazebo models (https://app.ignitionrobotics.org/fuel/models) and .world files
+- an importer for URDF files (including collisions for Jolt Physics) and SDF environments for Gazebo models (https://app.ignitionrobotics.org/fuel/models) and .world files
   - you can import models into Blender using [Phobos](https://github.com/dfki-ric/phobos) and then export to OBJ or FBX and import in Gazebo but a direct import would be nice
   - see also: [Loading model files at runtime](https://github.com/godotengine/godot/issues/24768)
 - an importer for MARS
   - a mars .scene-file ist just some XML representation of some nodes inside an .scn-file which is just a complressed list of 3D Meshes (obj-files) - should be easy for Godot to parse and load.
-- an interface similar to Gazebo
+- an user interface similar to Gazebo
   - the default Node-based Gazebo-interface is already close
 - ROS-Godot interface that allows to create ros-nodes from GDScript (ideally from both, the web suite and ROS directly so we can run a heavy simulation locally but also a user interface form a web browser where both have a similar API and both run in Godot?)
 - documentation specifically for robotics / a "robotics bundle" or general entrypoint for robotics enthusiasts
   - real-live examples!
   - Demo scenes and more robots!
+
